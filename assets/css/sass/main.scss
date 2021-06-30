@@ -1,13 +1,23 @@
 //abstracts
-
+@import 'abstracts/mixin';
+@import 'abstracts/variables';
 //vendors
 @import 'vendors/bootstrap-5.0.1/scss/bootstrap.scss';
 //base
-
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typograpghy';
 //layouts
+@import 'layouts/flexbox';
+@import 'layouts/navbar';
+@import 'layouts/hero-section';
+@import 'layouts/info';
+@import 'layouts/destacados';
 
 //components
-
+@import 'components/icono';
+@import 'components/thumbnail';
+@import 'components/botones';
 //page
 
 //themes
