@@ -8,4 +8,17 @@
     h5{
         font-size: 10px; 
     }
+
+    @include vista-sm{
+        h1{
+            font-size: $font-size-xxx-large;
+            padding-left: 25px;
+        }
+        h5{
+            font-size: 10px; 
+            
+        }
+    }
+
+   
 }

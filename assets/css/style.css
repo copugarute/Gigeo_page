@@ -10777,10 +10777,19 @@ p {
 .nav-brand h5, .nav-brand .h5 {
   font-size: 10px;
 }
+@media screen and (max-width: 600px) {
+  .nav-brand h1, .nav-brand .h1 {
+    font-size: 40px;
+    padding-left: 25px;
+  }
+  .nav-brand h5, .nav-brand .h5 {
+    font-size: 10px;
+  }
+}
 
 .hero-section {
   height: 22vh;
-  background-image: url("/assets/img/image-banner.png");
+  background-image: url("../img/image-banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10789,6 +10798,13 @@ p {
 
 .info {
   border-bottom: solid 1px #CCC;
+}
+@media screen and (max-width: 600px) {
+  .info {
+    border-bottom: 0px;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
 }
 .info-name h2, .info-name .h2 {
   font-size: large;
@@ -10799,9 +10815,24 @@ p {
   font-weight: thin;
   color: #888;
 }
+@media screen and (max-width: 600px) {
+  .info-name h2, .info-name .h2 {
+    font-size: 30px;
+  }
+  .info-name p {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+}
 
 .destacado-h1 {
   font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .destacado-h1 {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 .item h5, .item .h5 {
@@ -10816,6 +10847,16 @@ p {
   font-family: "Lato", sans-serif;
   padding-bottom: 20px;
 }
+.item .img4 {
+  height: auto;
+  max-height: 138px;
+}
+@media screen and (max-width: 600px) {
+  .item .img4 {
+    height: auto;
+    max-height: 500px;
+  }
+}
 
 .fas {
   width: 40px;
@@ -10825,10 +10866,39 @@ p {
   width: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  .fa-search {
+    display: none;
+  }
+
+  .fa-video {
+    display: none;
+  }
+
+  .fa-plus {
+    display: none;
+  }
+
+  .fa-bell {
+    display: none;
+  }
+
+  .fa-bars {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+}
 .info-thumbnail {
   height: 80px;
   width: 80px;
   border-radius: 50px;
+}
+@media screen and (max-width: 600px) {
+  .info-thumbnail {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+  }
 }
 
 .btn-1 {
@@ -10836,11 +10906,21 @@ p {
   border-radius: 0px;
   color: #FFF;
 }
+@media screen and (max-width: 600px) {
+  .btn-1 {
+    display: none;
+  }
+}
 
 .btn-2 {
   background-color: #FF565B !important;
   border-radius: 0px;
   color: #FFF;
+}
+@media screen and (max-width: 600px) {
+  .btn-2 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,3 +6,24 @@
     width: 40px;
   
 }
+
+@include vista-sm{
+
+    .fa-search{
+        display: none;
+    } 
+    .fa-video{
+        display: none; 
+    }
+    .fa-plus{
+        display: none; 
+    }
+    .fa-bell{
+        display: none;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+}

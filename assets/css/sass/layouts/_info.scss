@@ -1,6 +1,12 @@
 .info{
     border-bottom: solid 1px $silver;
 
+    @include vista-sm{
+        border-bottom: 0px;
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+
     &-name{
         h2{
             font-size: large;
@@ -11,6 +17,19 @@
             font-size: small;
             font-weight: thin;  
             color: $gray;
+        }
+
+        @include vista-sm{
+            h2{
+                font-size: $font-size-xx-large;
+                
+            }
+    
+            p{
+                font-size: $font-size-medium;
+                padding-left: 5px;
+               
+            }
         }
     }
 

@@ -1,5 +1,10 @@
 .destacado-h1{
     font-size: $font-size-x-large; 
+
+    @include vista-sm{
+        font-size: $font-size-xx-large; 
+        text-align: center;
+    }
 }
 .item{
     h5{
@@ -13,5 +18,15 @@
         font-weight: thin;
         font-family: 'Lato', sans-serif;
         padding-bottom: 20px;  
+    }
+
+    .img4{
+        height: auto;
+        max-height: 138px;
+
+        @include vista-sm{
+            height: auto;
+            max-height: 500px;
+        }
     }
 }

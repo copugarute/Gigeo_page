@@ -2,9 +2,17 @@
     background-color: $sky-blue !important;
     border-radius: 0px;
     color: $white;
+
+    @include vista-sm{
+        display: none;
+    }
 }
 .btn-2{
     background-color: $persimmon !important;
     border-radius: 0px;
     color: $white;
+    
+    @include vista-sm{
+        display: none;
+    }
 }
